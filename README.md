@@ -1,4 +1,4 @@
-# b2scnn
+# B2SCNN
 
 ## Download the dataset [for the training phase]
 wget http://paw.idav.ucdavis.edu/albara/b2scnn/imx.zip
