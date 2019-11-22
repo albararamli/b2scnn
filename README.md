@@ -18,3 +18,4 @@ https://docs.google.com/document/d/1DhFCgbaw2CHhzLYAtX8j5vsIJ7ygyiqDV5TE0xg_RIs/
 https://www.overleaf.com/6267822933cbznfxqccsgq
 
 ## Presentation [for the final presentation]
+https://docs.google.com/presentation/d/1tp4E9U0G2-Y8qHJcxbxGumAnCkW_clYAJm_erMB63_A/edit?usp=sharing
