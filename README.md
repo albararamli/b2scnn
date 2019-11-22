@@ -4,6 +4,7 @@
 wget http://paw.idav.ucdavis.edu/albara/b2scnn/imx.zip
 
 ## Download the models
+replace this folder with the exsist one
 wget http://paw.idav.ucdavis.edu/albara/b2scnn/best-models.zip
 
 ## Colab for the testing
