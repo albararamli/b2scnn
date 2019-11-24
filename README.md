@@ -1,12 +1,12 @@
 # B2WCNN
 
 ## Download the dataset [for the training phase]
-wget http://paw.idav.ucdavis.edu/albara/b2scnn/imx.zip
+wget http://paw.idav.ucdavis.edu/albara/b2wcnn/imx.zip
 
 ## Download the models [for the prediction phase]
 replace this folder with the exsist one
 
-wget http://paw.idav.ucdavis.edu/albara/b2scnn/best-models.zip
+wget http://paw.idav.ucdavis.edu/albara/b2wcnn/best-models.zip
 
 ## Colab [for the testing phase]
 https://colab.research.google.com/drive/1NPH6VwXNw2bgNQ8zfasRF-lgUCJnhZnr
