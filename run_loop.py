@@ -65,11 +65,9 @@ while True:
     cropped_r = frame[y1+1:y2-1, x1+1:x2]
     cropped_r = cv2.cvtColor(cropped_r, cv2.COLOR_BGR2GRAY)
     ##############################################
-
-    #cropped = frame[y1:y2, x1:x2]
-
+    croppedx = cropped[50:150,0:1000]
     #cv2.imshow("cropped", cropped)
-    cv2.imshow('Input', cropped)
+    cv2.imshow('Input', croppedx)
     
     c = cv2.waitKey(1)
 

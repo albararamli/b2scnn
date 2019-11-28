@@ -3,7 +3,7 @@ os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pygame
 from gtts import gTTS
 
-langx="zh-Hans"
+langx="en"
 
 def playx(jjj):
     global langx
@@ -93,7 +93,7 @@ def b2w():
                         w=w+u[0]
         if final_s != jjj and jjj!="":
             print(jjj)
-            playx(jjj)
+            #playx(jjj)
             final_s=jjj
 
 b2w()
