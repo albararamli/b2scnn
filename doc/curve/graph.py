@@ -10,12 +10,17 @@ def do_a(x1):
 
 def do_b(x1):
 	global axx
+	x1=x1.replace("e-","ee")
 	y1=x1.split('-')
 	if(len(y1)>1):
-		y1[2]=float(y1[2].replace("loss: ",""))
+		'''		y1[2]=float(y1[2].replace("loss: ",""))
 		y1[3]=float(y1[3].replace("acc: ",""))
 		y1[4]=float(y1[4].replace("val_loss: ",""))
-		y1[5]=float(y1[5].replace("val_acc: ",""))
+		y1[5]=float(y1[5].replace("val_acc: ",""))'''
+		y1[2]=y1[2].replace("loss: ","").replace("ee","e-")
+		y1[3]=y1[3].replace("acc: ","").replace("ee","e-")
+		y1[4]=y1[4].replace("val_loss: ","").replace("ee","e-")
+		y1[5]=y1[5].replace("val_acc: ","").replace("ee","e-")
 		print("loss:",y1[2])
 		print("acc:",y1[3])
 		print("val_loss:",y1[4])
@@ -26,12 +31,12 @@ def do_b(x1):
 		axx.append(y1[5])
 		axx.append("#")
 #sel="ResNet"
-#sel="ResNet-1000"
+sel="ResNet-1000"
 #sel="ResNet-transfer-itself"
 #sel="transfer-res-of"
 #sel="DenseNet"
 #sel="InceptionV3"
-sel="SqueezeNet"
+#sel="SqueezeNet"
 if sel=="ResNet-transfer-itself" or sel=="transfer-res-of" or sel=="DenseNet" or sel=="InceptionV3" or sel=="SqueezeNet":
 	SSS=[8,16,32]
 	MAXN=100
@@ -40,7 +45,7 @@ if sel=="ResNet":
 	MAXN=100
 if sel=="ResNet-1000":
 	SSS=[8,16,32]
-	MAXN=1000
+	MAXN=500
 for BSN in SSS:
 	axx=[]
 	if sel=="ResNet":
