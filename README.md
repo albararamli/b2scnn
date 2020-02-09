@@ -8,8 +8,12 @@ replace this folder with the exsist one
 
 wget http://paw.idav.ucdavis.edu/albara/bwcnn/best-models.zip
 
-## Colab [for the testing phase]
+## Colab for the testing phase
 https://colab.research.google.com/drive/1NPH6VwXNw2bgNQ8zfasRF-lgUCJnhZnr
+
+## Colab for the figures of the results]
+https://colab.research.google.com/drive/1-fq7pgtehLCCrWpkYW6GHE0E5_etKQWv
 
 ## Presentation [for the final presentation]
 https://docs.google.com/presentation/d/1tp4E9U0G2-Y8qHJcxbxGumAnCkW_clYAJm_erMB63_A/edit?usp=sharing
+
