@@ -1,4 +1,4 @@
-# BWCNN
+# BWCNN: Blink to Word, a Real-Time Convolutional Neural Network Approach
 
 ## Main website
 https://albara.ramli.net/research/bwcnn/
